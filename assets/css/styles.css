@@ -1,0 +1,113 @@
+html,body{
+    height:100%;
+    margin:0px;
+}
+
+.menu{
+    display:flex;
+    background-color: #3a3a3e ;
+    color:white;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu > a{
+    display:flex;
+    align-items: center;
+    color:white;
+
+}
+.menu > a:hover{
+    text-decoration: none;
+}
+.menu > a > p{
+    margin: 0px;
+}
+.conf{
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.7), 
+            rgba(0, 0, 0, 0.7)
+        ),
+        url("../img/ba1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    height: 65%;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: end;
+    color: white;
+    padding: 6.5rem; 
+}
+
+
+
+.informacion{
+
+}
+
+.peticion{
+
+}
+
+.pie{
+    background-image: linear-gradient(
+        90deg,
+        hsl(197deg 42% 18%) 0%,
+        hsl(198deg 44% 19%) 14%,
+        hsl(198deg 46% 20%) 28%,
+        hsl(199deg 48% 21%) 41%,
+        hsl(199deg 50% 22%) 53%,
+        hsl(199deg 53% 23%) 65%,
+        hsl(200deg 55% 24%) 76%,
+        hsl(200deg 57% 25%) 85%,
+        hsl(200deg 59% 26%) 94%,
+        hsl(200deg 61% 27%) 100%
+      );
+      display:flex;
+      color:white;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.image {
+    width: 100px;
+    height: auto;
+}
+
+.parrafo{
+    width: 45%;
+    text-align: end;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color:white;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color:grey;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.green{
+    color:green;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.green:hover{
+    color:white;
+}
+.navbar .navbar-nav .nav-item .nav-link.white {
+    color:white;
+    width: 60%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.white:hover{
+    color:grey;
+}
+
+.orador{
+    width: 300px;
+    height: auto;
+}
+
+
