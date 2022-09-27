@@ -67,7 +67,6 @@ html,body{
       );
       display:flex;
       color:white;
-      align-items: center;
       justify-content: space-around;
 }
 
@@ -95,19 +94,24 @@ html,body{
 
 .navbar .navbar-nav .nav-item .nav-link.green:hover{
     color:white;
+ 
 }
-.navbar .navbar-nav .nav-item .nav-link.white {
+.white {
     color:white;
-    width: 60%;
+    padding:20px;
 }
 
-.navbar .navbar-nav .nav-item .nav-link.white:hover{
+.white:hover{
     color:grey;
+    text-decoration: none;
 }
-
-.orador{
-    width: 300px;
-    height: auto;
+.col-md-6{
+    padding:0px;
 }
-
+.col{
+    padding:0px;
+}
+.btn-success.info{
+    width: 100%;
+}
 
